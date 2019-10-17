@@ -22,7 +22,9 @@ header img {
   justify-content: space-between;
 
 }
+ .vecteurs{
 
+ }
 
 h2{
   font-family: 'Pacifico', cursive;
@@ -58,16 +60,33 @@ section img {
   width:100%;
 }
 
+
+
 .parents{
+  padding-top:128px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
 
 }
-.texte{
-  width:500px;
-  height:500px;
+
+img.enfant{
+  height: 200%;
+  width:100%;
+  margin-left: 50px;
+
 }
+
+.texte{
+margin-left:100px;
+margin-right: 100px;
+margin-bottom:
+font-family: 'Open Sans', sans-serif;
+color:#fdbe28;
+font-size:25px;
+}
+
+
+
 
 .introduction{
   padding:128px;
@@ -83,11 +102,28 @@ section img {
   transform:translateX(-50%);
 }
 
+video {
+  width: 100vw;
+  margin-left:50%;
+  transform:translateX(-50%);
+  padding-top:50px;
+}
+
 .button{
   width:10%;
   display: block;
     margin-left: auto;
     margin-right: auto }
+}
+
+h4 {
+font-family: 'Open Sans', sans-serif;
+font-size:6px;
+color:#fdbe28;
+text-align: center;
+margin-top:50px;
+margin-bottom: 50px;
+
 }
 
 nav {
