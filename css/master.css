@@ -23,10 +23,6 @@ header img {
 
 }
 
-.product-list ul{
-  display:flex;
-  flex-wrap: wrap;
-}
 
 h2{
   font-family: 'Pacifico', cursive;
@@ -40,10 +36,15 @@ h1 {
   font-size:40px;
 }
 
+h3{
+  font-family: 'Pacifico', cursive;
+  color:white;
+  font-size:70px;
+}
+
 
 section{
   max-width:600px;
-  
   margin:0 auto;
 
 }
@@ -55,6 +56,17 @@ p{
 
 section img {
   width:100%;
+}
+
+.parents{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.texte{
+  width:500px;
+  height:500px;
 }
 
 .introduction{
@@ -72,14 +84,23 @@ section img {
 }
 
 .button{
-  width:20%;
+  width:10%;
   display: block;
     margin-left: auto;
     margin-right: auto }
 }
 
 nav {
+
   display:flex;
   justify-content:center;
   align-items: center;
+    margin:0 auto;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  color:#fdbe28;
+
+
 }
