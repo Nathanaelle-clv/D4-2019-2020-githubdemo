@@ -23,7 +23,11 @@ header img {
 
 }
  .vecteurs{
-
+   display:flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: center;
+   position: relative;
  }
 
 h2{
@@ -85,6 +89,11 @@ color:#fdbe28;
 font-size:25px;
 }
 
+.comment{
+  font-family: 'Open Sans', sans-serif;
+  font-size:19px;
+  text-align: justify;
+}
 
 
 
