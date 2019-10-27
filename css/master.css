@@ -10,11 +10,6 @@ header {
   display:flex;
   flex-direction: column;
   justify-content: space-around;
-/*/
-  justify-content: flex-end;
-  align-items: center;
-  text-align: center;
-  position: relative; */
 
 }
 
@@ -37,13 +32,6 @@ header {
   flex-shrink: 1;
 }
 
- .vecteurs{
-/*   display:flex;
-   justify-content: flex-end;
-   align-items: center;
-   text-align: center;
-   position: relative; */
- }
 
 h2{
   font-family: 'Pacifico', cursive;
@@ -95,19 +83,13 @@ img.enfant{
 
 }
 
-.texte{
-margin-left:100px;
-margin-right: 100px;
-margin-bottom:
-font-family: 'Open Sans', sans-serif;
-color:#fdbe28;
-font-size:25px;
-}
 
 .comment{
+  padding:128px;
   font-family: 'Open Sans', sans-serif;
   font-size:19px;
   text-align: justify;
+  color: #9adef9;
 }
 
 
@@ -142,7 +124,7 @@ video {
 
 h4 {
 font-family: 'Open Sans', sans-serif;
-font-size:6px;
+font-size:4px;
 color:#fdbe28;
 text-align: center;
 margin-top:50px;
@@ -151,7 +133,7 @@ margin-bottom: 50px;
 }
 
 nav {
-
+ font-size:40px;
   display:flex;
   justify-content:center;
   align-items: center;
